@@ -17,7 +17,7 @@ public class SavingsAccountService {
         return repository.findAll();
     }
 
-    public Mono<SavingsAccount> getAccountById(String id) {
+    public Mono<SavingsAccount> getById(String id) {
         return repository.findById(id);
     }
 
