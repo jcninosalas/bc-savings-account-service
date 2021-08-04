@@ -7,6 +7,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 @Getter
 @Setter
-public class SavingsAccount {
+public class SavingsAccount extends Account {
     private int maxMonthlyTransactions; //definir un maximo mensual
 }
